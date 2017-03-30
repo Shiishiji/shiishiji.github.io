@@ -1,0 +1,179 @@
+/* PAGE SETTINGS */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:link {
+    color: white;
+}
+header a:visited {
+    color: crimson;
+}
+.bar {
+    background-color: #282828;
+    color: azure;
+}
+/* ARROW */
+#arrow {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 20px;
+	bottom: 60px;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	border-radius:60%;
+	opacity: 0.8;
+}
+#arrow:hover {
+	cursor: pointer;
+}
+/* NAVIGATION PANEL TOP */
+nav header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav header h3 {
+    margin-left: 15px;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#menu ul {
+    margin: 0;
+}
+/* PAGE HEADER */
+#button {
+	padding: 10px;
+	border: 2px solid green;
+	background-color: green;
+	color: white;
+	text-align: center;
+	text-shadow: none;
+}
+#button:hover {
+	cursor: pointer;
+}
+main header {
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	background-image: url("img/programmers_at_work.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main header div {
+    position: relative;
+    text-align: right;
+}
+main header div h2 {
+    font-size: 40px;
+}
+main header div p {
+	font-size: 25px;
+	letter-spacing: 1px;
+
+	text-shadow: 2px 2px white;
+}
+
+/* CV */
+main nav  {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main section div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+main section div img {
+    border-radius: 45%;
+    width: 200px;
+    height: auto;
+}
+
+.cvtable {
+	max-width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+	border-collapse: collapse; 
+}
+table tr, table td {
+    width: 580px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.cvtable caption {
+    font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+.cvtable td {
+	text-align: left;
+}
+/* PROJECTS */
+div.project:hover {
+	cursor: pointer;
+}
+.project {
+	display: block;
+}
+img.project {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+/* CONTACT */
+#contact {
+    display: flex;
+    justify-content: center;
+}
+#form h4 {
+	text-align: center;
+}
+#form, fieldset {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#form input, #form textarea {
+    width: 40vw;
+    resize: none;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+footer h3 {
+    padding-right: 20px;
+}
